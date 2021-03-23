@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+
+
+
+
+
+.box h3{
+  text-align:center;
+  position:relative;
+  top:150px;
+  font-size:40px;
+  font-style: oblique;
+}
+.box {
+  width:70%;
+  height:420px;
+  background-image: url("docpatient.jpg" ) ;
+  background-position: center;
+  background-size: cover;
+  margin:50px auto;
+}
+
+.effect1{
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
+
+html {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: #90A4AE;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  
+  overflow: hidden;
+  background-color: rgb(82, 212, 230);
+}
+.topnav a {
+  float:left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.hero-image {
+  background-image: url("butterflies.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.border {
+    margin: 50px;
+    border: 8px solid rgb(0, 255, 242); 
+  }
+h3 {text-align: center;
+  }
+p {
+  margin: 0 auto;
+  text-align: center;
+  width: 45%;
+  font-size: larger;
+}
+div {text-align: center;
+}
+body {
+          font-size:14px;
+       }
+
+       label {
+          font-weight:bold;
+          width:100px;
+          font-size:14px;
+       }
+       .outline{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text outline">
+    <h1 style="font-size:50px">E-Doctor</h1>
+    <h3>We are there for you!</h3>
+  </div>
+</div>
+
+<div class="topnav">
+  <a href="html.html">HOME</a>
+  <a href="doctors.html">DOCTORS</a>
+  <a href="scheduling.html">SCHEDULING</a>
+  <a href="progress.html">PROGRESS</a>
+  <a href="references.html">REFERENCES</a>
+</div>
+
+</div>
+</body>
+ </head>
+          <div style = "background-color:rgb(67, 190, 206);; ; color:#FFFFFF; padding:3px;"><b>Insert Your Information</b></div>
+          <div style = "margin:30px">
+                <label>First Name :</label><input type = "text" name = "firstname" /><br /><br />
+                <label>Last Name :</label><input type = "text" name = "lastname" /><br/><br />
+                <label>Email Address  :</label><input type = "text" name = "email" /><br /><br />
+                <label>Phone Number  :</label><input type = "text" name = "number" /><br /><br />
+                <label>Height  :</label><input type = "text" name = "height" /><br /><br />
+                <label>Weight  :</label><input type = "text" name = "weight" /><br /><br />
+                <input type="checkbox" name="Dr. Anthony Sei Bien" value="1"> Dr. Anthony Sei Bien
+                <input type="checkbox" name="Dr. Raj Patel" value="2"> Dr. Raj Patel
+                <input type="checkbox" name="Dr. Salman Khan" value="3"> Dr. Salman Khan
+                <input type="checkbox" name="Dr. Karishma Kapoor" value="4"> Dr. Karishma Kapoor
+                <button onclick="location.href='submissionresults.html'" type="button">SUBMIT</button>
+             </form>
+          </div>
+       </div>
+    </div>
+ </body>
+
+</body>
+</html>
